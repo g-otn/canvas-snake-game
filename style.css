@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+    color: white;
+    font-size: 1.3vw;
+}
+
+#placar {
+    position: absolute;
+    top: 1vw;
+    right: 0;
+    left: 0;
+    width: 50vw;
+    margin: auto;
+    padding: 1vw;
+    text-align: center;
+    z-index: 2;
+}
+
+#placar h1 {
+    display: inline;
+    margin: 0 2vw 0;
+}
+
+canvas {
+    box-shadow: 0 0 15px #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+#configuracoes {
+    background-color: rgba(20, 20, 100, .2);
+    height: auto;
+    position: absolute;
+    left: 1vw;
+    bottom: 1vw;
+    margin: auto;
+    padding: 1vw;
+    z-index: 2;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2vw;
+}
+
+h2 {
+    margin: 2vh 0 0;
+    font-size: 1.5vw;
+}
+
+input[type=number] {
+    border: none;
+    background-color: rgba(0, 0, 50, .5);
+    color: white;
+    font-size: 1vw;
+    width: 4vw;
+    text-align: center;
+}
+
+input[type=range] {
+    width: 8vw;
+    max-height: 1vh;
+}
+
+button {
+    border: 0;
+    background-color: rgba(0, 100, 150, .5);
+    font-size: 1vw;
+    padding: 0.2vw 0.7vw;
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(0, 200, 200, .5);
+}
+
+#autor {
+    text-align: right;
+    position: fixed;
+    right: 1vw;
+    bottom: 0;
+}

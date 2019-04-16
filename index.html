@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercício de Jogo da Cobra</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="placar">
+        <h1>Recorde <span id="recorde" style="color: goldenrod">0</span></h1>
+        <h1>Pontos <span id="pontos" style="color: green">0</span></h1>
+    </div>
+
+    <canvas id="jogoCanvas"></canvas>
+
+    <div id="configuracoes">
+        <h1>Configurações</h1>
+        <h2>Área de Jogo</h2>
+        <label>Largura
+            <input type="number" min="2" max="100" value="20"
+                onchange="if (!isNaN(this.value)) { dimensoesJogo.largura = this.value; reiniciarJogo() }">
+        </label><br>
+        <label>Altura
+            <input type="number" min="2" max="100" value="15"
+                onchange="if (!isNaN(this.value)) { dimensoesJogo.altura = this.value; reiniciarJogo() }">
+        </label><br>
+        <label>Tamanho do Pixel
+            <input type="number" min="1" max="75" value="40"
+                onchange="if (!isNaN(this.value)) { dimensoesJogo.tamanhoPosicao = this.value; reiniciarJogo() }"></label>
+        </label>
+        <h2>Cobra</h2>
+        <label>Velocidade 
+            <input type="range" min="1" max="20" value="10"
+                onchange="velocidade = Number(this.value); this.blur()">
+        </label><br>
+        <label>Tamanho Inicial 
+            <input type="number" min="1" max="500" value="4" id="tamanhoInicial"
+                onchange="if (!isNaN(this.value)) { tamanhoInicialDaCobra = this.value - 1; reiniciarJogo() }">
+        </label><br>
+        <label>
+            <input type="checkbox" onchange="imortal = this.checked">Imortal
+        </label><br><br>
+        <button onclick="reiniciarJogo()">Reiniciar (Espaço)</button>
+    </div>
+    <p id="autor">
+        <b style="color: lightseagreen">Gabriel Otani Pereira</b> - Abr 2019
+    </p>
+</body>
+
+</html>
