@@ -1,7 +1,7 @@
 # snake-game
-Snake Game made with Javascript and HTML5 Canvas. Simplier but cleaner version of my [first snake game](https://my-snake-game-niota2018.glitch.me/).
+Snake Game made with Javascript and HTML5 Canvas. Simple but cleaner version of my [first snake game](https://my-snake-game-niota2018.glitch.me/).
 
-*Jogo da cobra feito com JavaScript e HTML5 Canvas. Versão mais simples porém limpa do meu [primeiro jogo da cobra](https://my-snake-game-niota2018.glitch.me/).*
+*Jogo da cobra feito com JavaScript e HTML5 Canvas. Versão simples porém limpa do meu [primeiro jogo da cobra](https://my-snake-game-niota2018.glitch.me/).*
 
 
 [Live version](https://canvas-snake-game.glitch.me/) on Glitch
