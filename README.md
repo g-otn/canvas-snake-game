@@ -3,9 +3,6 @@ Snake Game made with Javascript and HTML5 Canvas
 
 *Jogo da cobra feito com JavaScript e HTML5 Canvas*
 
-
-[Live version](https://canvas-snake-game.glitch.me/) on Glitch
-
 ## The game (O jogo)
 
 This project creates a Snake Game, which is a game where you control a non-stop crawling snake while trying not to hit the game area boundaries or yourself. 
