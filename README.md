@@ -15,7 +15,7 @@ The goal of the game is to grow as much as possible by eating food that appears 
 O objetivo do jogo é crescer o máximo possível comendo comidas que aparecem na área do jogo.*
 
 <p align="center">
-  <img width="400" src="https://github.com/g-otn/snake-game/blob/master/example.gif">
+  <img width="400" src="https://user-images.githubusercontent.com/44736064/62988027-2b371200-be19-11e9-9b0b-7dc487c2634b.gif">
 </p>
 
 ## Controls (Controles)
