@@ -18,12 +18,12 @@ O objetivo do jogo é crescer o máximo possível comendo comidas que aparecem n
 ## Controls (Controles)
 
 The controls are:
-- Arrows (← ↑ → ↓) to move around
-- Spacebar to restart
+- Arrows (<kbd>←</kbd> <kbd>↑</kbd> <kbd>→</kbd> <kbd>↓</kbd>) to move around
+- <kbd>Spacebar</kbd> to restart
 
 *Os controles são:*
-- Setas (← ↑ → ↓) para se movimentar
-- Barra de Espaço para reiniciar
+- Setas (<kbd>←</kbd> <kbd>↑</kbd> <kbd>→</kbd> <kbd>↓</kbd>) para se movimentar
+- <kbd>Barra de espaço</kbd> para reiniciar
 
 ## Extra options (Opções Extras)
 
